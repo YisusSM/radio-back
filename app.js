@@ -16,6 +16,7 @@ void async function startApp() {
             compression: false,
             routes: { files: { relativeTo: Path.join(__dirname, 'public') } }
         });
+        console.log(server.port,server.host);
         await server.register(StaticFilePlugin);
         await server.register(Routes);
 
