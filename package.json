@@ -7,7 +7,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd songs/ && node-radio-mini "
+    "start": "cd songs/ && ./app.js "
   },
   "bin": {
     "node-radio-mini": "./app.js"
